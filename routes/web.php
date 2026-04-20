@@ -14,6 +14,8 @@ Route::get('/', function () {
 })->name('home');
 
 
+
+
 Route::get('/showTask/{id}', function ($id) {
-  return view('showTask' , ['eachTask' => Todo::findOrFail($id)] );
-})->name('showTasks');
+  return  view('showTask' , ['eachtask' =>Todo::findOrFail($id)]);
+})->name('showTask');
