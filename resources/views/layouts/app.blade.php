@@ -40,10 +40,10 @@
     <!-- HERO -->
     <section class="py-20 text-center">
         <h2 class="text-4xl font-bold text-gray-800 mb-3">
-            Organize Your Work Efficiently
+            @yield('Hero')
         </h2>
         <p class="text-gray-500 mb-6">
-            Manage tasks, track progress, and stay productive
+            @yield('heroDescription')
         </p>
     </section>
 
